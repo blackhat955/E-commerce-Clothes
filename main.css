@@ -1,0 +1,391 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* top-bar */
+.top-bar{
+    display:flex;
+    flex-direction:row;
+}
+.top-social{
+    display:flex;
+    flex-direction:row;
+    font-family: 'Oxygen', sans-serif;
+    text-align:right;
+}
+.contact{
+    float:right;
+}
+.main-top{
+    background-color:#3d5a80;
+    padding:30px;
+    display:flex;
+    flex-direction:row;
+}
+.con,.compare,.wishlist,.login{
+    font-size:1.3rem;
+    color:#f9dcc4;
+    margin-left:20px;
+    
+}
+.lang,.cur{
+  margin-left:20px;
+}
+select{
+    padding:15px;
+    outline:none;
+    border-radius:10px;
+    outline:none;
+    border:none;
+    text-align:center;
+}
+
+/* Navbar */
+.nav-item{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+}
+.nav-search{
+    text-align:center;
+    justify-content:center;
+    margin-left:40px;
+    margin-top:16px;
+}
+
+.nav-search i{
+    font-size:1.6rem;
+} 
+
+.home{
+    margin-left:30px;
+}
+.nav{
+    margin-top:30px;
+}
+/* big box of the container*/
+
+.big-box{
+    width:100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.big-box img{
+    width:100%;
+    height:80vh;
+}
+.top-left {
+    position: absolute;
+    top: 40%;
+    left:10%;
+  }
+  .top-left .off{
+      font-size:2rem;
+      color:darkseagreen;
+      font-family: 'Oxygen', sans-serif;
+  }
+  .top-left .men{
+      font-size:2rem;
+      font-family: 'Oxygen', sans-serif;
+  }
+  .top-left button{
+      padding:3px 10px 3px 10px;
+      font-size:1.8rem;
+      background-color:#e71d36;
+      font-family: 'Oxygen', sans-serif;
+      color:white;
+      outline:none;
+  }
+
+  /* two cards */
+
+  .two-box1,.two-box2{
+    width:100%;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .two-left{
+      position:absolute;
+      top:50%;
+      left:60%;
+  }
+  .sale{
+      font-size:2rem;
+      color:rgb(198, 243, 52);
+      font-family: 'Oxygen', sans-serif;
+  }
+  .about-sale{
+      font-size:1.5rem;
+      font-family: 'Oxygen', sans-serif;
+  }
+  .shop-now{
+      font-size:1.3rem;
+      font-family: 'Oxygen', sans-serif;
+
+  }
+  .two-cards{
+      margin-top:30px;
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+      grid-gap:30px;
+  }
+  .two-box1 img{
+      object-fit:cover;
+      background-size:cover;
+      width:100%;
+      height:400px;
+  }
+  .two-box2 img{
+    object-fit:cover;
+    background-size:cover;
+    width:100%;
+    height:400px;
+}
+/* Products */
+.pro-head{
+    font-size:2rem;
+    text-align: center;
+}
+.pro-nav{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.pro-nav a{
+    text-decoration:none;
+    color:dimgray;
+    margin-top:20px;
+    margin-left:50px;
+}
+.pro-nav a:hover{
+    color:red;
+}
+
+/* product-card */
+.card-pro{
+margin-left:10px;
+margin-top:30px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+grid-gap:40px;
+}
+.cards{
+    border:1px solid lightslategrey;
+    box-shadow: 1px 1px 10px 1px;
+    width:min-content;
+}
+.pro-img{
+    width:auto;
+    background-size:cover;
+    object-fit:cover;
+}
+.pro-price{
+    margin-left:10px;
+    
+}
+.pro-card-info{
+    margin-left:10px;
+    font-weight:normal;
+}
+.rating{
+    margin-left:10px;
+}
+.checked{
+    color:orange;
+}
+
+/* big box down the product cards */
+
+.down-big-box{
+    width:100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.down-big-box img{
+    margin-top:60px;
+    margin-bottom:30px;
+    width:100%;
+    height:80vh;
+}
+.top-right {
+    position: absolute;
+    top: 40%;
+    left:60%;
+  }
+  .top-right .qouts{
+      font-size:1.3rem;
+      color:white;
+      font-family: 'Oxygen', sans-serif;
+  }
+  .top-right .men{
+      font-size:2rem;
+      color:white;
+      font-family: 'Oxygen', sans-serif;
+  }
+  .top-right button{
+      padding:3px 10px 3px 10px;
+      font-size:1.2rem;
+      background-color:#e71d36;
+      font-family: 'Oxygen', sans-serif;
+      color:white;
+      outline:none;
+  }
+
+
+
+/* testimonial */
+.carousel-slide{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.carousel-inner{
+    height:50vh;
+}
+.carousel-inner img{
+    width:100%;
+    height:50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit:cover;
+}
+.carousel-caption img{
+    height:100px;
+    width:100px;
+}
+.carousel-inner p{
+    color:black !important;
+}
+/* support */
+.supportparent{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.support{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    justify-items:center;
+    margin:40px,0px,40px,0px;
+}
+.support{
+    text-align:center;
+}
+.support i{
+font-size:2.5rem;
+color:#adb5bd;
+}
+.headline{
+font-size:1.5rem;
+font-weight:bold;
+font-family: 'Oxygen', sans-serif;
+}
+.de-info,.return-info,.cus-info{
+    font-size:1.2rem;
+    font-family: 'Oxygen', sans-serif;
+    color:#adb5bd;
+}
+/* Newsletter */
+.news{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    justify-content:center;
+    justify-items:center;
+    margin:10px 0px 10px 0px;
+    background-color:#dc2f02;
+    padding:40px;
+}
+.news-info{
+  font-size:2rem;
+  color:white;
+  font-family: 'Oxygen', sans-serif;
+}
+.serach{
+    display:flex;
+    flex-direction:row;
+}
+.serach input{
+    padding:10px;
+    font-size:1.2rem;
+    outline:none;
+}
+.serach button{
+    padding:10px;
+    font-size:1.2rem;
+    outline:none;
+    background-color:#003049;
+    color:white;
+    cursor:pointer;
+}
+
+/* footer */
+.footer{
+    margin-top:50px;
+}
+.row1{
+    display:grid;
+    background-color:#003049;
+    color:white;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    padding:10px;
+}
+h2{
+    font-family: 'Oxygen', sans-serif;
+}
+.social{
+    display:flex;
+    flex-direction:row;
+    margin-top: 50px;
+    cursor:pointer;
+}
+
+.info{
+    margin-top:30px;
+    font-size:1rem;
+    font-family: 'Oxygen', sans-serif;
+}
+.facebook,.twitter,.youtube,.instagram,.googleplus{
+    margin-left:15px;
+    font-size:1.2rem;
+}
+ li{
+    padding:30px;
+    list-style:none;
+    cursor:pointer;
+    font-size:0.98rem;
+    font-family: 'Oxygen', sans-serif;
+}
+li:hover{
+    background-color:yellow;
+    color:#003049;
+}
+.contact i{
+    font-size:1rem;
+}
+.loc,.mail,.mobile{
+    margin-top:20px;
+    padding:20px;
+    font-family: 'Oxygen', sans-serif;
+    font-size:1.1rem;
+}
+
+
+
+
+
+
+
+
+
+.row2{
+    background-color:#003049;
+}
+.row2 .copy{
+    padding:40px;
+    color:white;
+    font-family: 'Oxygen', sans-serif;
+}
