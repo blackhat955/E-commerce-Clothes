@@ -71,6 +71,7 @@ select{
     position: relative;
     text-align: center;
     color: white;
+    margin-top:40px;
 }
 .big-box img{
     width:100%;
