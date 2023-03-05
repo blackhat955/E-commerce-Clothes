@@ -1,1 +1,1 @@
-# E-Commerce Website for shoping Clothes and Daily Utility
+# E-Commerce Website (shoping Clothes & Utilities)
